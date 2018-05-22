@@ -8,4 +8,4 @@ A tool built in Vanilla JS to calculate the total repayments of a loan
   - CSS (Bootstrap 4)
   - JS
 
-[CodePen Link](https://codepen.io/GhostNote90/pen/VxNabE)
+[CodePen Link](https://codepen.io/GhostNote90/full/VxNabE/)
