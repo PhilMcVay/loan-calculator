@@ -7,3 +7,5 @@ A tool built in Vanilla JS to calculate the total repayments of a loan
   - HTML
   - CSS (Bootstrap 4)
   - JS
+
+[CodePen Link](https://codepen.io/GhostNote90/pen/VxNabE)
