@@ -1,6 +1,6 @@
 # Loan Calculator
 
-A tool built in Vanilla JS to calculate to total repayments of a loan
+A tool built in Vanilla JS to calculate the total repayments of a loan
 
 # Technologies Used
 

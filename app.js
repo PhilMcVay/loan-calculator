@@ -12,7 +12,11 @@ const results = document.querySelector('.results')
 
 // Formats values
 function formatNumber(number) {
-  return `£${number.toString().split( /(?=(?:\d{3})+(?:\.|$))/g ).join( "," )}`
+  return `£${number
+    .toString()
+    .split( /(?=(?:\d{3})+(?:\.|$))/g )
+    .join( "," )
+  }`
 }
 
 // Generates error alert
@@ -45,8 +49,12 @@ const generateResults = (e) => {
   // If number is finite, populate and show results
   if (isFinite(monthly)) {
     totalMonthly.textContent = formatNumber(monthly.toFixed(2))
-    totalPayment.textContent = formatNumber((monthly * paymentCalculated).toFixed(2))
-    totalInterest.textContent = formatNumber(((monthly * paymentCalculated) - principle).toFixed(2))
+    totalPayment.textContent = formatNumber(
+      (monthly * paymentCalculated).toFixed(2)
+    )
+    totalInterest.textContent = formatNumber(
+      ((monthly * paymentCalculated) - principle).toFixed(2)
+    )
 
     results.style.display = 'block'
 
